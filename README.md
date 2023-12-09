@@ -7,7 +7,7 @@
 
 <h3 align="center">⬇️ Live project link ⬇️
 <br>
-<a href="https://moviebuzz-uttam1712.vercel.app" target="_blank">Vercel deployment 🔗</a>
+<a href="https://mfx.vercel.app" target="_blank">Vercel deployment 🔗</a>
 </h1>
 
 <br>
