@@ -15,11 +15,11 @@
 # How to run the project locally 📑
 
 - Clone the repo to your local machine.
-- Navigate to the root folder and in your terminal, run: [npm install]
-- Navigate to the client directory and run: [npm install] there as well
-- run: [npm install -g concurrently]
-- From the project root, run: [npm run dev]
-- Goto: [localhost:3000] to see the app running.
+- Navigate to the root folder and in your terminal, run: [npm install]()
+- Navigate to the client directory and run: [npm install]() there as well
+- run: [npm install -g concurrently]()
+- From the project root, run: [npm run dev]()
+- Goto: [localhost:3000]() to see the app running.
 - Note: Not a good practice but, I have removed the .env file from .gitignore,
   just for simplicity's sake
 
