@@ -8,6 +8,8 @@ const {
   MAIL_FROM,
 } = require('../config');
 
+console.log(MAIL_AUTH_CREDENTIAL_PASSWORD);
+
 let transporter = nodemailer.createTransport({
   // host: MAIL_HOST,
   // port: MAIL_PORT,

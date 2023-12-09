@@ -23,6 +23,11 @@
 - Note: Not a good practice but, I have removed the .env file from .gitignore,
   just for simplicity's sake
 
+# Admin Account Credentials
+
+- Admin account: testadmin@gmail.com
+- Password: test1234
+
 <br>
 
 # Overview 📑
