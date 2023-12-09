@@ -1,4 +1,4 @@
-<h1 align="center">Movie-Buzz <img src="./client/src/assets/images/favicon.png" width="40" height="40"/></h1>
+<h1 align="center">MFX <img src="./client/src/assets/images/favicon.png" width="40" height="40"/></h1>
 <p align="center">
     An online movie ticket booking web application with full admin support and having all real time booking functionalities like real booking apps & also interactive and beautiful user interface built with <a href="https://www.mongodb.com/mern-stack" target="_blank">MERN</a> stack
 </p>
