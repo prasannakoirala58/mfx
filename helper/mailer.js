@@ -6,9 +6,11 @@ const {
   MAIL_AUTH_CREDENTIAL_PASSWORD,
   MAIL_AUTH_CREDENTIAL_USER,
   MAIL_FROM,
+  EMAIL_USERNAME,
+  EMAIL_PASSWORD,
+  EMAIL_HOST,
+  EMAIL_PORT,
 } = require('../config');
-
-console.log(MAIL_AUTH_CREDENTIAL_PASSWORD);
 
 let transporter = nodemailer.createTransport({
   // host: MAIL_HOST,
@@ -16,10 +18,19 @@ let transporter = nodemailer.createTransport({
   service: `SendGrid`,
   // secure: true,
   // requireTLS: true,
+  // host: EMAIL_HOST,
+  // port: EMAIL_PORT,
   auth: {
-    user: MAIL_AUTH_CREDENTIAL_USER,
-    pass: MAIL_AUTH_CREDENTIAL_PASSWORD,
+    user: process.env.MAIL_AUTH_CREDENTIAL_USER,
+    pass: process.env.MAIL_AUTH_CREDENTIAL_PASSWORD,
   },
+  // auth: {
+  //   user: EMAIL_USERNAME,
+  //   pass: EMAIL_PASSWORD,
+  // },
+  // tls: {
+  //   rejectUnauthorized: false,
+  // },
 });
 
 const handlebarsOptions = {

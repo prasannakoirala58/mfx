@@ -20,8 +20,6 @@
 - run: npm install -g concurrently
 - From the project root, run: npm run dev
 - Goto: localhost:3000 to see the app running.
-- Note: Not a good practice but, I have removed the .env file from .gitignore,
-  just for simplicity's sake
 
 # Admin Account Credentials
 
