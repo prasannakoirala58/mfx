@@ -1,0 +1,370 @@
+[
+  {
+    "title": "Inception",
+    "language": ["English"],
+    "description": "A mind-bending journey into the world of dreams.",
+    "release_date": "2010-07-16",
+    "trailer_link": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w1280/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg"
+    },
+    "duration": 148,
+    "genre": ["Sci-Fi", "Action", "Thriller"],
+    "actors": ["Leonardo DiCaprio", "Ellen Page", "Tom Hardy"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "language": ["English"],
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "release_date": "1994-09-23",
+    "trailer_link": "https://www.youtube.com/watch?v=6hB3S9bIaco",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/kXfqcdQKsToO0OUXHcrrNCHDBzO.jpg"
+    },
+    "duration": 142,
+    "genre": ["Drama"],
+    "actors": ["Tim Robbins", "Morgan Freeman"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "The Matrix",
+    "language": ["English"],
+    "description": "A computer hacker learns about the true nature of his reality.",
+    "release_date": "1999-03-31",
+    "trailer_link": "https://www.youtube.com/watch?v=m8e-FF8MsqU",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/giBJ0ezYNEobFBfB8H4JNTjmll.jpg"
+    },
+    "duration": 136,
+    "genre": ["Sci-Fi", "Action"],
+    "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Avatar",
+    "language": ["English"],
+    "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission.",
+    "release_date": "2009-12-18",
+    "trailer_link": "https://www.youtube.com/watch?v=5PSNL1qE6VY",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg"
+    },
+    "duration": 162,
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "The Dark Knight",
+    "language": ["English"],
+    "description": "When the menace known as The Joker emerges, Batman must confront him.",
+    "release_date": "2008-07-18",
+    "trailer_link": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "banner": "http://www.impawards.com/2008/posters/dark_knight_ver8.jpg"
+    },
+    "duration": 152,
+    "genre": ["Action", "Crime", "Drama"],
+    "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Interstellar",
+    "language": ["English"],
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "release_date": "2014-11-07",
+    "trailer_link": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "banner": "http://www.impawards.com/2014/posters/interstellar.jpg"
+    },
+    "duration": 169,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Jurassic Park",
+    "language": ["English"],
+    "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "release_date": "1993-06-11",
+    "trailer_link": "https://www.youtube.com/watch?v=lc0UehYemQA",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg",
+      "banner": "http://www.impawards.com/1993/posters/jurassic_park_ver3.jpg"
+    },
+    "duration": 127,
+    "genre": ["Adventure", "Sci-Fi", "Thriller"],
+    "actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Titanic",
+    "language": ["English"],
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "release_date": "1997-12-19",
+    "trailer_link": "https://www.youtube.com/watch?v=2e-eXJ6HgkQ",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+      "banner": "http://www.impawards.com/1997/posters/titanic_ver5.jpg"
+    },
+    "duration": 195,
+    "genre": ["Drama", "Romance"],
+    "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "language": ["English"],
+    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "release_date": "2019-04-26",
+    "trailer_link": "https://www.youtube.com/watch?v=TcMBFSGVi1c",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "banner": "http://www.impawards.com/2019/posters/avengers_endgame.jpg"
+    },
+    "duration": 195,
+    "genre": ["Drama", "Romance"],
+    "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "The Godfather",
+    "language": ["English"],
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "release_date": "1972-03-24",
+    "trailer_link": "https://www.youtube.com/watch?v=sY1S34973zA",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/tmU7GeKVybMWFButWEGl2M4GeiP.jpg"
+    },
+    "duration": 175,
+    "genre": ["Crime", "Drama"],
+    "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Pulp Fiction",
+    "language": ["English"],
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "release_date": "1994-10-14",
+    "trailer_link": "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+      "banner": "http://www.impawards.com/1994/posters/pulp_fiction_ver3.jpg"
+    },
+    "duration": 154,
+    "genre": ["Crime", "Drama"],
+    "actors": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Forrest Gump",
+    "language": ["English"],
+    "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+    "release_date": "1994-07-06",
+    "trailer_link": "https://www.youtube.com/watch?v=bLvqoHBptjg",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/qdIMHd4sEfJSckfVJfKQvisL02a.jpg"
+    },
+    "duration": 142,
+    "genre": ["Drama", "Romance"],
+    "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+    "adult": false,
+    "status": "released"
+  },
+  {
+    "title": "Dune",
+    "language": ["English"],
+    "description": "A young noble sets out on a journey to a dangerous and desert planet to secure the future of his family and his people.",
+    "release_date": "2023-10-20",
+    "trailer_link": "https://www.youtube.com/watch?v=n9xhJrPXop4",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg"
+    },
+    "duration": 155,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "actors": ["Timothee Chalamet", "Rebecca Ferguson", "Oscar Isaac"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "The Batman",
+    "language": ["English"],
+    "description": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+    "release_date": "2023-03-02",
+    "trailer_link": "https://www.youtube.com/watch?v=NLOp_6uPccQ",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/tRS6jvPM9qPrrnx2KRp3ew96Yot.jpg"
+    },
+    "duration": 176,
+    "genre": ["Action", "Crime", "Drama"],
+    "actors": ["Robert Pattinson", "Zoe Kravitz", "Paul Dano"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "language": ["English"],
+    "description": "The sequel to Avatar continues the story of the Na'vi and explores new areas of Pandora.",
+    "release_date": "2024-12-18",
+    "trailer_link": "https://www.youtube.com/watch?v=8uG5V9gJkeg",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/8rpDcsfLJypbO6vREc0547VKqEv.jpg"
+    },
+    "duration": 180,
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Black Panther: Wakanda Forever",
+    "language": ["English"],
+    "description": "The sequel to Black Panther explores the world of Wakanda and the legacy of T'Challa.",
+    "release_date": "2023-11-10",
+    "trailer_link": "https://www.youtube.com/watch?v=V8Dj9h3RaNU",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg"
+    },
+    "duration": 150,
+    "genre": ["Action", "Adventure", "Drama"],
+    "actors": ["Letitia Wright", "Danai Gurira", "Tenoch Huerta"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "language": ["English"],
+    "description": "Doctor Strange faces new threats and explores the multiverse to confront dark forces.",
+    "release_date": "2023-05-05",
+    "trailer_link": "https://www.youtube.com/watch?v=Ll2tMjynOxA",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fwBl3J2aEXru6mrr9Xg8O99Iz2K.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/51wwXoVKpS6oJMbz03qvN0Hxt99.jpg"
+    },
+    "duration": 160,
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "actors": ["Benedict Cumberbatch", "Elizabeth Olsen", "Chiwetel Ejiofor"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "language": ["English"],
+    "description": "Pete 'Maverick' Mitchell continues his service as a legendary pilot, training the new generation of Top Gun aviators.",
+    "release_date": "2023-05-24",
+    "trailer_link": "https://www.youtube.com/watch?v=qSqVVswa420",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg"
+    },
+    "duration": 140,
+    "genre": ["Action", "Drama"],
+    "actors": ["Tom Cruise", "Miles Teller", "Jennifer Connelly"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "language": ["English"],
+    "description": "The third installment of the Guardians of the Galaxy series as the team explores new adventures in the cosmos.",
+    "release_date": "2023-07-14",
+    "trailer_link": "https://www.youtube.com/watch?v=dL4PMUxXpDg",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg"
+    },
+    "duration": 150,
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "actors": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Indiana Jones and the Dial of Destiny",
+    "language": ["English"],
+    "description": "The fifth installment in the Indiana Jones series follows the iconic archaeologist on a new adventure.",
+    "release_date": "2023-11-15",
+    "trailer_link": "https://www.youtube.com/watch?v=4kSoIsUdJ2M",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/35z8hWuzfFUZQaYog8E9LsXW3iI.jpg"
+    },
+    "duration": 130,
+    "genre": ["Action", "Adventure"],
+    "actors": ["Harrison Ford", "Phoebe Waller-Bridge"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Mission: Impossible - Dead Reckoning Part One",
+    "language": ["English"],
+    "description": "Ethan Hunt and his team return for another high-stakes mission full of action and suspense.",
+    "release_date": "2023-09-01",
+    "trailer_link": "https://www.youtube.com/watch?v=7WplkvY1j0U",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/NNxYkU70HPurnNCSiCjYAmacwm.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/628Dep6AxEtDxjZoGP78TsOxYbK.jpg"
+    },
+    "duration": 145,
+    "genre": ["Action", "Adventure", "Thriller"],
+    "actors": ["Tom Cruise", "Hayley Atwell", "Simon Pegg"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "The Flash",
+    "language": ["English"],
+    "description": "Barry Allen, also known as The Flash, explores the multiverse and faces new challenges.",
+    "release_date": "2023-06-30",
+    "trailer_link": "https://www.youtube.com/watch?v=4HTZIaaJ6yE",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/gNPWlhUXhyWiHv9qxr57tvT0WwS.jpg"
+    },
+    "duration": 135,
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "actors": ["Ezra Miller", "Ben Affleck"],
+    "adult": false,
+    "status": "coming soon"
+  },
+  {
+    "title": "Thor: Love and Thunder",
+    "language": ["English"],
+    "description": "The mighty Thor faces new challenges as Jane Foster takes on the mantle of Thor.",
+    "release_date": "2023-07-06",
+    "trailer_link": "https://www.youtube.com/watch?v=Qjbo-4S9RiU",
+    "images": {
+      "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+      "banner": "https://www.themoviedb.org/t/p/w1066_and_h600_bestv2/vvObT0eIWGlArLQx3K5wZ0uT812.jpg"
+    },
+    "duration": 155,
+    "genre": ["Action", "Adventure", "Comedy"],
+    "actors": ["Chris Hemsworth", "Natalie Portman"],
+    "adult": false,
+    "status": "coming soon"
+  }
+]

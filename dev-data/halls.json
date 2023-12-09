@@ -1,0 +1,20 @@
+[
+  {
+    "screenName": "Audi 1",
+    "totalSeats": 100,
+    "totalRows": 10,
+    "totalColumns": 10
+  },
+  {
+    "screenName": "Audi 2",
+    "totalSeats": 80,
+    "totalRows": 8,
+    "totalColumns": 10
+  },
+  {
+    "screenName": "Audi 3",
+    "totalSeats": 120,
+    "totalRows": 12,
+    "totalColumns": 10
+  }
+]
