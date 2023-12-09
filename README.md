@@ -189,4 +189,13 @@ The suggested application allows users to reserve a movie from a theatre for a s
 - Learning: Gaining experience with the deployment process and managing environment
   variables in a production environment.
 
+- Challenge: Faced deployment issues on Vercel due to read-only file system,
+  hindering the original file writing process for Cloudinary integration,
+  as it used the method of first writing to the file system.
+
+- Learning: Adapted the application's file handling workflow to align with
+  Vercel's constraints, ensuring successful deployment. Explored alternative
+  methods, eliminated temporary file writing, instead used base64 encoded
+  dataUri for handling cloudinary image uploads.
+
 <br>
