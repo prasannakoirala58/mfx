@@ -35,8 +35,6 @@ exports.sendMail = async (reciever, sub, mailDetails, isTicketMail = true) => {
     },
   };
 
-  // console.log(mailDetails);
-
   transporter.sendMail(mailOptions, function (error, response) {
     if (error) {
       console.log(error);
