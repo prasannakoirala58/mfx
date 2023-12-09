@@ -115,3 +115,78 @@ The suggested application allows users to reserve a movie from a theatre for a s
 - Database is hosted on [mongodb atlas](https://www.mongodb.com/atlas/database) cloud platform
 
 <br>
+
+# Inspiration 📑
+
+- Heavy inspiration taken from the app movie-buzz.
+- [Inspiration from repo](https://github.com/uttamsutariya/movie-buzz) by uttamsutariya. Thanks!
+
+<br>
+
+# Challenges & Learnings 📑
+
+# 1. Database Integration:
+
+- Challenge: Configuring MongoDB Atlas and connecting it to the project.
+
+- Learning: Understanding the process of setting up a cloud-based database and integrating it
+  into a web application.
+
+# 2. Cloudinary Integration:
+
+- Challenge: Replacing Amazon S3 with Cloudinary for image storage.
+
+- Learning: Understanding different cloud storage services and adapting the application to use
+  a new provider.
+
+# 3. React Context for State Management:
+
+- Challenge: Understanding and modifying the state management using React Context.
+
+- Learning: Exploring the benefits of React Context and how it can be effectively
+  used for state management in a React application.
+
+# 4. API Security:
+
+- Challenge: Implementing secure API endpoints and handling authentication.
+
+- Learning: Understanding best practices for securing backend APIs, implementing JWT,
+  and handling user authentication.
+
+# 5. Error Handling and Logging:
+
+- Challenge: Implementing robust error handling and logging on the backend.
+
+- Learning: Understanding how to utilize tools and techniques for effective error
+  detection, logging, and debugging in a production environment.
+
+# 6. Mailing System Troubleshooting:
+
+- Challenge: Identifying and resolving issues with the existing mailing system.
+
+- Learning: Troubleshooting common problems related to email delivery, such as
+  SMTP configuration issues.
+
+# 7. Choosing a New Mailing Service:
+
+- Challenge: Evaluating and selecting an alternative mailing service (SendGrid)
+  to replace the existing one, configuring the SendGrid API and integrating it into the application.
+
+- Learning: Understanding the features,and documentation of SendGrid and implementing
+  it for seamless email delivery.
+
+# 8. Testing with Mailsac:
+
+- Challenge: Implementing a testing strategy for emails using Mailsac.
+
+- Learning: Testing if the emails are working or not using a dummy disposable
+  email testing service, Mailsac.
+
+# 9. Deployment to Vercel:
+
+- Challenge: Deploying the application to Vercel and configuring environment variables.
+
+- Learning: Gaining experience with the deployment process and managing environment
+  variables in a production environment.
+
+<br>

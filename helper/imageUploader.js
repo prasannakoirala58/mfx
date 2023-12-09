@@ -1,25 +1,12 @@
 const cloudinary = require('cloudinary');
 const sharp = require('sharp');
-const fs = require('fs');
-const path = require('path');
 
 const asyncHandler = require('../middlewares/asyncHandler');
 
-// Helper function to create temporary file on disk (for registering user)
-const createTempFile = (fileBuffer, fileName) => {
-  const tempFilePath = path.join(__dirname, fileName);
-  fs.writeFileSync(tempFilePath, fileBuffer);
-  return tempFilePath;
-};
-
 // Helper function to upload file to Cloudinary (for registering user)
-const uploadToCloudinary = asyncHandler(async (filePath, folder, publicId) => {
-  console.log('File for cloudinary', filePath);
-  console.log('Folder for cloudinary', folder);
-  console.log('publicID for cloudinary', publicId);
-
+const uploadToCloudinary = asyncHandler(async (dataUri, folder, publicId) => {
   try {
-    const uploadResult = await cloudinary.v2.uploader.upload(filePath, {
+    const uploadResult = await cloudinary.v2.uploader.upload(dataUri, {
       folder: folder,
       public_id: publicId,
     });
@@ -31,37 +18,30 @@ const uploadToCloudinary = asyncHandler(async (filePath, folder, publicId) => {
 });
 
 // Helper function to handle file upload and cleanup (for registering user)
-const cloudinary_upload = async (fileBuffer, fileName, folder, publicId, banner = true) => {
+const cloudinaryUploadHandler = async (file, folder, publicId, banner = true) => {
   // Image manipulation
   if (banner) {
     // banner_image=944 * 472
-    fileBuffer = await sharp(fileBuffer)
+    file[0].buffer = await sharp(file[0].buffer)
       .resize({ height: 472, width: 944, fit: 'contain' })
       .toBuffer();
   } else {
     // poster_image = 261 * 392 ;
-    fileBuffer = await sharp(fileBuffer)
+    file[0].buffer = await sharp(file[0].buffer)
       .resize({ height: 392, width: 261, fit: 'contain' })
       .toBuffer();
   }
 
-  console.log(fileBuffer, fileName, folder, publicId, banner);
   console.log('Chalyo ta ya samma?');
-  console.log('This is the file buffer', fileBuffer);
 
-  const tempFilePath = createTempFile(fileBuffer, fileName);
-  console.log('This is the error root?', tempFilePath);
+  // Convert the file buffer to base64 encoded dataURI
+  const mimeType = file[0].mimetype; // Get the mime type
+  const buffer = file[0].buffer; // Get the file buffer
+  const base64String = Buffer.from(buffer).toString('base64', 'binary');
+  const dataUri = `data:${mimeType};base64,${base64String}`;
 
-  const uploadedFileUrl = await uploadToCloudinary(tempFilePath, folder, publicId);
+  const uploadedFileUrl = await uploadToCloudinary(dataUri, folder, publicId);
   console.log('Uploaded file to cloudinary:', uploadedFileUrl);
-  if (uploadedFileUrl) {
-    fs.unlink(tempFilePath, (err) => {
-      if (err) {
-        console.error(`Error deleting temporary file ${tempFilePath}:`, err);
-      }
-    });
-  }
-
   return uploadedFileUrl;
 };
 // For Deleting file from Cloudinary
@@ -76,15 +56,15 @@ const getPublicIdFromUrl = (fileSecureUrl) => {
 };
 
 // Helper function to delete file from Cloudinary
-const cloudinary_delete = async (fileSecureUrl) => {
+const cloudinaryDeleteHandler = async (fileSecureUrl) => {
   const publicId = getPublicIdFromUrl(fileSecureUrl);
   const deletionResult = await cloudinary.v2.uploader.destroy(publicId);
   return deletionResult.result === 'ok';
 };
 
 module.exports = {
-  cloudinary_upload,
-  cloudinary_delete,
+  cloudinaryUploadHandler,
+  cloudinaryDeleteHandler,
 };
 
 // exports.cloudinary_upload = asyncHandler(async (file, folderName, banner = true) => {

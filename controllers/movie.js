@@ -1,7 +1,10 @@
 const asyncHandler = require('../middlewares/asyncHandler');
 const CustomError = require('../utils/customError');
 
-const { cloudinary_upload, cloudinary_delete } = require('../helper/imageUploader');
+const {
+  cloudinaryUploadHandler,
+  cloudinaryDeleteHandler,
+} = require('../helper/imageUploader');
 const upload = require('../helper/multerConfig');
 
 const { MAX_FILE_SIZE } = require('../config');
@@ -123,16 +126,14 @@ exports.addMovie = asyncHandler(async (req, res, next) => {
     const pubIdPoster = `${poster[0].originalname.split('.')[0]}-poster`;
     const pubIdBanner = `${banner[0].originalname.split('.')[0]}-banner`;
 
-    const posterURL = await cloudinary_upload(
-      poster[0].buffer,
-      'tempPoster.jpg',
+    const posterURL = await cloudinaryUploadHandler(
+      poster,
       'movies/poster',
       pubIdPoster,
       false
     );
-    const bannerURL = await cloudinary_upload(
-      banner[0].buffer,
-      'tempBanner.jpg',
+    const bannerURL = await cloudinaryUploadHandler(
+      banner,
       'movies/banner',
       pubIdBanner,
       true
@@ -167,10 +168,10 @@ exports.addMovie = asyncHandler(async (req, res, next) => {
       // If there was an error saving the user, delete the uploaded
       // profile picture and document from Cloudinary
       if (movie.images.poster) {
-        await cloudinary_delete(movie.images.poster);
+        await cloudinaryDeleteHandler(movie.images.poster);
       }
       if (user.images.banner) {
-        await cloudinary_delete(movie.images.banner);
+        await cloudinaryDeleteHandler(movie.images.banner);
       }
     }
 
