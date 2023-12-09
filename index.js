@@ -13,4 +13,4 @@ cloudinary.v2.config({
 
 const server = http.createServer(app);
 
-server.listen(PORT, () => console.log(`App is running on port:${PORT}`));
+server.listen(process.env.PORT, () => console.log(`App is running on port:${PORT}`));
