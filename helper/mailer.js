@@ -2,35 +2,12 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 const hbs = require('nodemailer-express-handlebars');
 
-const {
-  MAIL_AUTH_CREDENTIAL_PASSWORD,
-  MAIL_AUTH_CREDENTIAL_USER,
-  MAIL_FROM,
-  EMAIL_USERNAME,
-  EMAIL_PASSWORD,
-  EMAIL_HOST,
-  EMAIL_PORT,
-} = require('../config');
-
 let transporter = nodemailer.createTransport({
-  // host: MAIL_HOST,
-  // port: MAIL_PORT,
   service: `SendGrid`,
-  // secure: true,
-  // requireTLS: true,
-  // host: EMAIL_HOST,
-  // port: EMAIL_PORT,
   auth: {
     user: process.env.MAIL_AUTH_CREDENTIAL_USER,
     pass: process.env.MAIL_AUTH_CREDENTIAL_PASSWORD,
   },
-  // auth: {
-  //   user: EMAIL_USERNAME,
-  //   pass: EMAIL_PASSWORD,
-  // },
-  // tls: {
-  //   rejectUnauthorized: false,
-  // },
 });
 
 const handlebarsOptions = {
