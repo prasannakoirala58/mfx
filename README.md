@@ -12,6 +12,19 @@
 
 <br>
 
+# How to run the project locally 📑
+
+- Clone the repo to your local machine.
+- Navigate to the root folder and in your terminal, run: [npm install]
+- Navigate to the client directory and run: [npm install] there as well
+- run: [npm install -g concurrently]
+- From the project root, run: [npm run dev]
+- Goto: [localhost:3000] to see the app running.
+- Note: Not a good practice but, I have removed the .env file from .gitignore,
+  just for simplicity's sake
+
+<br>
+
 # Overview 📑
 
 MFX allows users to order tickets for a show and gather information about movies and venues. To purchase show tickets, the customer must first register to the application. When selecting a show, the user is presented with a seating configuration from which he can select seats. He'll be redirected to the payment input screen.
