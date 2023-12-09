@@ -15,7 +15,7 @@
 # How to run the project locally 📑
 
 - Clone the repo to your local machine.
-- Navigate to the root folder and in your terminal, run: [npm install]
+- Navigate to the root folder and in your terminal, run: [npm install]()
 - Navigate to the client directory and run: [npm install] there as well
 - run: [npm install -g concurrently]
 - From the project root, run: [npm run dev]
